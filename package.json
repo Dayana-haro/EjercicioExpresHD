@@ -1,0 +1,22 @@
+{
+  "name": "ejercicioexpres",
+  "version": "1.0.0",
+  "description": "ejercicio con la libreria express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dayana-haro/EjercicioExpresHD.git"
+  },
+  "author": "DCHM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dayana-haro/EjercicioExpresHD/issues"
+  },
+  "homepage": "https://github.com/Dayana-haro/EjercicioExpresHD#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
