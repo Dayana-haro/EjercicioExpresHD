@@ -109,8 +109,11 @@ app.get('/cuadradoperfecto/:numero1/:numero2', (req, res) => {
     // Calcular el cuadrado perfecto
     let resultado = Math.pow(numero1, 2) + 2 * numero1 * numero2 + Math.pow(numero2, 2);
 
+    // Formar la ecuación como texto
+    let ecuacion = `(${numero1} + ${numero2})^2 = ${numero1}^2 + 2*${numero1}*${numero2} + ${numero2}^2`;
+
     // Enviar la respuesta
-    res.send(`El resultado del cuadrado perfecto de (${numero1} + ${numero2})^2 es: ${resultado}`);
+    res.send(`El resultado del cuadrado perfecto de ${ecuacion} es: ${resultado}`);
 });
 ;
 app.listen(3001, () => {
